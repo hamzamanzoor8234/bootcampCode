@@ -39,7 +39,7 @@ jobs:
         uses: npm i -g surge
     #deploye on surge
       - name: deploye on surge
-        uses: surge ./build http://hamza_assignment.surge.sh/ --token ${{Secrets.SURGE_TOKEN}}
+        run: surge ./build http://hamza_assignment.surge.sh/ --token ${{secrets.surge_token}}
 
     
 
