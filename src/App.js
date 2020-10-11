@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
 <div>
-  hy there its Hamza
+  Its surge app
 </div>
 
   );
